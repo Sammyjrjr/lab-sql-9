@@ -18,13 +18,3 @@ select * from rentals_june;
 select customer_id,count(rental_id) as 'number of rentals may' from rentals_may group by customer_id;
 -- Check the number of rentals for each customer for June.
 select customer_id,count(rental_id) as 'number of rentals june' from rentals_june group by customer_id;
-
--- Create a Python connection with SQL database and retrieve the results of the last two queries (also mentioned below) as dataframes:
-
--- Check the number of rentals for each customer for May
-
--- Check the number of rentals for each customer for June
-
--- Hint: You can store the results from the two queries in two separate dataframes.
-
--- Write a function that checks if customer borrowed more or less films in the month of June as compared to May.
